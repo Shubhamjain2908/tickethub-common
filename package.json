@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "del-cli ./build/*",
     "build": "npm run clean && tsc",
-    "pub": "git add . && git commit -m \"error logging\" && npm version patch && npm run build && npm publish"
+    "pub": "git add . && git commit -m \"added Events: ticket created and updated\" && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +22,8 @@
     "cookie-session": "^1.4.0",
     "express": "^4.17.1",
     "express-validator": "^6.6.0",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "node-nats-streaming": "^0.3.2"
   },
   "devDependencies": {
     "del-cli": "^3.0.1",
