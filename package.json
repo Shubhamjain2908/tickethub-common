@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "del-cli ./build/*",
     "build": "npm run clean && tsc",
-    "pub": "git add . && git commit -m \"Added verions on order & tickets\" && npm version patch && git push && npm run build && npm publish"
+    "pub": "git add . && git commit -m \"changing the access modifier of nats client to protected & added orderId to ticket-update-event\" && npm version patch && git push && npm run build && npm publish"
   },
   "keywords": [],
   "author": "",
